@@ -1,0 +1,238 @@
+body {
+    font: 300 18px 'Roboto Slab', serif;
+    line-height: 1.8;
+    color: #E7996B;
+}
+
+.jumbotron {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+
+    font-family: 'Poiret One', cursive;
+    font-size: 1.33em;
+    text-transform: uppercase;
+    color: #9A5329;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 1.05em;
+    line-height: 1.375em;
+    color: #9A5329;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    background: #10B9B9;
+    color: #ffffff;
+    padding: 100px 25px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.bg-grey {
+    background: #f6f6f6;
+}
+
+/* Add an greenorange color to all icons and set the font-size */
+.logo-small {
+    color: #10B9B9;
+    font-size: 50px;
+}
+
+.logo {
+    color: #10B9B9;
+    font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #10B9B9;
+}
+
+.carousel-indicators li {
+    border-color: #10B9B9;
+}
+
+.carousel-indicators li.active {
+    background-color: #10B9B9;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+.panel {
+    border: 1px solid #10B9B9;
+    border-radius: 0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0 40px rgba(0, 0, 0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #10B9B9;
+    background-color: #fff !important;
+    color: #10B9B9;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #10B9B9 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #10B9B9;
+    color: #fff;
+}
+
+/*--------- bnavbar --------*/
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #10B9B9;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    box-shadow: 0 1px 10px #90FFFF;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #10B9B9 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+/*---- footer -----*/
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #10B9B9;
+}
+
+.social-i > .col-sm-3 {
+    border: none;
+    padding: 0;
+}
+
+.social-i .col-sm-3 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.social-i .col-sm-3 a:link {
+    color: #f6f6f6
+}
+
+.social-i .col-sm-3 a:hover {
+    color: #E7996B;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.social-i .col-sm-3:first-child {
+    border-left: 1px dashed #9A5329;
+    border-right: 1px dashed #9A5329;
+
+}
+
+.social-i .col-sm-3:nth-child(3) {
+    border-left: 1px dashed #9A5329;
+    border-right: 1px dashed #9A5329;
+
+}
+
+.social-i .col-sm-3:last-child {
+    border-right: 1px dashed #9A5329;
+
+}
+
+@media (max-width: 425px) {
+    .social-i .col-sm-3:first-child {
+        border-top: 1px dashed #9A5329;
+        border-bottom: 1px dashed #9A5329;
+
+    }
+
+    .social-i .col-sm-3:nth-child(3) {
+        border-top: 1px dashed #9A5329;
+        border-bottom: 1px dashed #9A5329;
+    }
+
+    .social-i .col-sm-3:last-child {
+        border-right: none;
+
+    }
+
+}
+
