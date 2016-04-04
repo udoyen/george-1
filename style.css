@@ -12,6 +12,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+/*------- Text Shadow -----*/
+.text-shadow{
+    text-shadow: 2px 2px 8px #90FFFF;
+}
 h2 {
 
     font-family: 'Poiret One', cursive;
